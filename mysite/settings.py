@@ -39,16 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.sitemaps',
-    'debug_toolbar',
+    # 'debug_toolbar',
     'base',
     'thread',
     'api',
     'search',
 ]
 
-INTERNAL_IPS = [
-    '127,0,0,1',
-]
+# INTERNAL_IPS = [
+#     '127,0,0,1',
+# ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware', # Deubg tool bar
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware', # Deubg tool bar
      'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
