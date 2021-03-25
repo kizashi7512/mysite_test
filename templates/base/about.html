@@ -1,0 +1,24 @@
+{% extends 'base/base.html' %}
+{% block title %}このサイトはなに？ - {{ block.super }}{% endblock %}
+{% block content %}
+<div class="ui grid stackable">
+    <div class="eleven wide column">
+        <div class="ui breadcrumb">
+            <a href="{% url 'base:top' %}" class="section">TOP</a>
+            <i class="right angle icon divider"></i>
+            <a class="active section">このサイトはなに？</a>
+        </div>
+        <div class="ui segment">
+            <div class="content">
+                <div class="header"><h3>このサイトはなに？</h3></div>
+                <p>創設者：水谷 兆による失敗を語り合う掲示板です。</p>
+                <!-- <p>このサイトはDjangoのサンプルアプリです。</p>
+                <p>今回は失敗掲示板を作成しました。</p> -->
+                <p>今日あったあなたの失敗を投稿して共有しましょう。</p>
+                <p>あなたの失敗を書くことで、あなた自身はもちろんのこと、投稿を見た第三者も救われることになると思います。</p>
+            </div>
+        </div>
+    </div>
+    {% include 'base/sidebar.html' %}
+</div>
+{% endblock %}

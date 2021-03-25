@@ -1,0 +1,47 @@
+[
+  {
+      "model" : "thread.category",
+      "pk" : 1,
+      "fields" : {
+          "name" : "生活の失敗",
+          "url_code" : "life_failure",
+          "sort" : 1
+      }
+  },
+  {
+      "model" : "thread.category",
+      "pk" : 2,
+      "fields" : {
+          "name" : "買い物の失敗",
+          "url_code" : "shopping_failure",
+          "sort" : 2
+      }
+  },
+  {
+      "model" : "thread.category",
+      "pk" : 3,
+      "fields" : {
+          "name" : "お金の失敗",
+          "url_code" : "money_failure",
+          "sort" : 3
+      }
+  },
+  {
+      "model" : "thread.category",
+      "pk" : 4,
+      "fields" : {
+          "name" : "人間関係の失敗",
+          "url_code" : "friand_failure",
+          "sort" : 4
+      }
+  },
+  {
+      "model" : "thread.category",
+      "pk" : 5,
+      "fields" : {
+          "name" : "憩いの場",
+          "url_code" : "chatter",
+          "sort" : 5
+      }
+  }
+]

@@ -1,0 +1,23 @@
+{% extends 'base/base.html' %}
+{% block title %}プライバシーポリシー - {{ block.super }}{% endblock %}
+{% block content %}
+<div class="ui grid stackable">
+    <div class="eleven wide column">
+        <div class="ui breadcrumb">
+            <a href="{% url 'base:top' %}" class="section">TOP</a>
+            <i class="right angle icon divider"></i>
+            <a class="active section">プライバシーポリシー</a>
+        </div>
+        <div class="ui segment">
+            <div class="content">
+                <div class="header"><h3>プライバシーポリシー</h3></div>
+                <p>リボ払い利用の方は強制退出</p>
+                <p>スマイル(0円)</p>
+                <p>自分探しは勝手にやってください</p>
+                <p>ヴィーガンを押し付けないでください</p>
+            </div>
+        </div>
+    </div>
+    {% include 'base/sidebar.html' %}
+</div>
+{% endblock %}
