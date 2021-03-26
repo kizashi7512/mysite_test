@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '2uj!=(ej(ond)ru!b__ph@uf&3)+*@(va2r$n@%g2oz6xp3w$9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -46,9 +46,9 @@ INSTALLED_APPS = [
     'search',
 ]
 
-INTERNAL_IPS = [
-    '127,0,0,1',
-]
+# INTERNAL_IPS = [
+#     '127,0,0,1',
+# ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
